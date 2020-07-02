@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogfon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/previewbackgroundone"
+    android:orientation="vertical"
+    android:scaleType="centerCrop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btn_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:background="@drawable/button_stoke_blue_press_primary"
+            android:gravity="center"
+            android:text="&#60;"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/previewimg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:src="@drawable/previewimg1"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/levelone"
+            android:layout_weight="30"
+            android:textColor="@color/black95"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/button_stoke_blue_press_primary"
+            android:layout_weight="10"
+            android:text="@string/textcontinue"
+            android:textColor="@color/black95"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
